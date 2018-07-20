@@ -13,7 +13,7 @@ redes convolucionales,fue realizado para la presentación de trabajo final del c
 ## Introducción
 > Para este trabajo hemos estado interesados en deep learning, en particular las redes neuronales convolucionales. Un documento sobresaliente de los últimos tiempos es el reconocimiento de números (de múltiples dígitos). Esta investigación describe un sistema para extraer números de casas de las imágenes de Google Street View utilizando una única red neuronal. Luego, los autores explican cómo se puede aplicar la misma red para romper el propio sistema CAPTCHA de Google con precisión a nivel humano.
 
-Con el fin de obtener experiencia práctica con la implementación de redes neuronales, decidimos diseñar un sistema para resolver un problema similar: reconocimiento automático de placas de automóviles. Para este proyecto hemos usado Python, TensorFlow, OpenCV y NumPy.
+> Con el fin de obtener experiencia práctica con la implementación de redes neuronales, decidimos diseñar un sistema para resolver un problema similar: reconocimiento automático de placas de automóviles. Para este proyecto hemos usado Python, TensorFlow, OpenCV y NumPy.
 
 ## Data
 
