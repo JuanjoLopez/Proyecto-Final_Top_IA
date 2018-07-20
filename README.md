@@ -17,7 +17,7 @@ redes convolucionales,fue realizado para la presentación de trabajo final del c
 ![](https://matthewearl.github.io/assets/cnn-anpr/topology.svg)
 
 ## Contruido con
-* [Python]-Lenguaje de Programación usado.
+* Python-Lenguaje de Programación usado.
 * [TensorFlow](https://www.tensorflow.org/) 
 * [OpenCV](http://opencv.org/) 
 * [Numpy](http://www.numpy.org/) 
