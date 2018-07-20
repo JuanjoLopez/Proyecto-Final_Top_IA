@@ -21,9 +21,9 @@ Con el fin de obtener experiencia práctica con la implementación de redes neur
 
 ![](https://matthewearl.github.io/assets/cnn-anpr/window-example.jpg)
 
-Para cada frame que la red devuelva, entregará dos cosas. La primera es la probabiliad que el número de la placa es presentado en la imagen de entrada. Y la segunda es la probabilidad de cada dígito en cada posición. Por ejemplo, en cada una de las 7 posibles posiciones debería retornar una probabilidad entre los 36 caracteres existentes (número, letras). Para este proyecto asumimos un tipo de secuencia, debido que no en todos los paises es la misma secuencia de caracteres, además que con esta secuencia ya hemos entrenado nuestro proyecto. Esta secuencia esta dada por 7 carcateres (Letra - Letra - Número - Número - Letra - Letra - Letra).
+> Para cada frame que la red devuelva, entregará dos cosas. La primera es la probabiliad que el número de la placa es presentado en la imagen de entrada. Y la segunda es la probabilidad de cada dígito en cada posición. Por ejemplo, en cada una de las 7 posibles posiciones debería retornar una probabilidad entre los 36 caracteres existentes (número, letras). Para este proyecto asumimos un tipo de secuencia, debido que no en todos los paises es la misma secuencia de caracteres, además que con esta secuencia ya hemos entrenado nuestro proyecto. Esta secuencia esta dada por 7 carcateres (Letra - Letra - Número - Número - Letra - Letra - Letra).
 
-Se cosidera como placa si está dentro de los bordes de la imagen. Si el ancho es menor que el 80% de la imagen y mayor que el 60% y la altura es menor al 87.5% de de la altura de la imagen y mayor al 60%.  
+> Se cosidera como placa si está dentro de los bordes de la imagen. Si el ancho es menor que el 80% de la imagen y mayor que el 60% y la altura es menor al 87.5% de de la altura de la imagen y mayor al 60%.  
 
 
 ## Arquitectura Utilizada
